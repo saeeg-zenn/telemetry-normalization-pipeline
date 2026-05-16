@@ -1,0 +1,33 @@
+{
+  "schema_name": "canonical_telemetry_contract",
+  "schema_version": "v2.0",
+  "compatibility_version": "v1.0",
+  "ownership_reference": {
+    "owner_team": "Infrastructure Engineering",
+    "upstream_system": "Deterministic Integrity Engine",
+    "downstream_system": "Structured Contracts",
+    "replay_owner": "Replay Storage"
+  },
+  "provenance_metadata": {
+    "created_by": "Telemetry Federation System",
+    "created_date": "2026-05-16",
+    "last_updated": "2026-05-16",
+    "change_type": "schema_federation"
+  },
+  "required_fields": [
+    "trace_id",
+    "signal_id",
+    "source_system",
+    "unit_id",
+    "signal_type",
+    "timestamp",
+    "sequence_id",
+    "output_hash"
+  ],
+  "rejection_rules": [
+    "unknown_fields",
+    "silent_field_mutation",
+    "schema_version_mismatch",
+    "missing_required_fields"
+  ]
+}
