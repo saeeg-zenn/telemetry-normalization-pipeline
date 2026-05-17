@@ -1,0 +1,25 @@
+{
+  "schema_version": "v3.0",
+  "compatibility_version": "v2.x",
+  "ownership_reference": "Saee Gaikwad - Replay Federation Layer",
+  "provenance_metadata": {
+    "created_by": "Telemetry Infrastructure Integration Task 3",
+    "purpose": "Cross-system deterministic replay validation",
+    "last_updated": "2026-05-16"
+  },
+  "required_fields": [
+    "trace_id",
+    "signal_id",
+    "sequence_id",
+    "timestamp",
+    "payload_hash",
+    "schema_version"
+  ],
+  "rejection_rules": {
+    "unknown_fields": true,
+    "silent_field_mutation": true,
+    "schema_version_mismatch": true,
+    "duplicate_packet_detection": true,
+    "reordered_packet_detection": true
+  }
+}
