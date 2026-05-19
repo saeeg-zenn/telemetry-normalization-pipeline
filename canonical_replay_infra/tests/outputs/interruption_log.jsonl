@@ -1,0 +1,2 @@
+{"trace_id": "TRACE1100", "stage": "validation", "sequence_id": "SEQ001", "reason": "Simulated execution interruption", "interrupted_at": "2026-05-18T23:16:51.600907Z", "status": "INTERRUPTED"}
+{"trace_id": "TRACE2200", "stage": "replay", "sequence_id": "SEQ001", "reason": "Simulated execution interruption", "interrupted_at": "2026-05-18T23:16:51.651800Z", "status": "INTERRUPTED"}
