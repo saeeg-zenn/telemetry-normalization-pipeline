@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "telemetry_can_modify_governance": false,
+    "observability_can_override_replay": false,
+    "confidence_accumulation_can_escalate_authority": false,
+    "observability_can_become_prioritization_pressure": false,
+    "adaptive_refinement_can_breach_boundary": false
+  },
+  "authority_hierarchy": [
+    "governance_service",
+    "truth_service",
+    "replay_service",
+    "observability_service"
+  ],
+  "version": "1.0.0"
+}

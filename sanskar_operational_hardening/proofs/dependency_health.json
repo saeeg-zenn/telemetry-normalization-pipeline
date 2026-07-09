@@ -1,0 +1,7 @@
+{
+    "governance_service": "UP",
+    "truth_service": "UP",
+    "observability_service": "UP",
+    "testing_service": "UP",
+    "bhiv_gateway": "UP"
+}

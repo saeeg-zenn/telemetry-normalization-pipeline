@@ -1,0 +1,5 @@
+{
+    "docker": "READY",
+    "health_endpoint": true,
+    "restart_deterministic": true
+}

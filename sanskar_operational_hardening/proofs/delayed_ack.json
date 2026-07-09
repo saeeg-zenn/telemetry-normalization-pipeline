@@ -1,0 +1,6 @@
+{
+    "status": "Delayed ACK",
+    "ack_received": true,
+    "trace": "CONTINUED",
+    "replay": "MATCH"
+}

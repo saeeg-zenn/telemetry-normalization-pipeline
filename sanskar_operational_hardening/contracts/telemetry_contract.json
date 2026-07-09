@@ -1,0 +1,9 @@
+{
+  "service": "observability_service",
+  "version": "1.0",
+  "telemetry": {
+    "descriptive_only": true,
+    "cannot_change_governance": true,
+    "cannot_modify_replay": true
+  }
+}

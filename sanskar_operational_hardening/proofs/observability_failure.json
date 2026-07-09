@@ -1,0 +1,6 @@
+{
+    "status": "Observability Failure",
+    "telemetry": "INTERRUPTED",
+    "trace": "PRESERVED",
+    "replay": "MATCH"
+}

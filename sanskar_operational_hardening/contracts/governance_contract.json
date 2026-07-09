@@ -1,0 +1,15 @@
+{
+  "service": "governance_service",
+  "version": "1.0",
+  "authority": "validation_only",
+  "allowed_actions": [
+    "validate_trace",
+    "validate_replay",
+    "validate_boundary"
+  ],
+  "forbidden_actions": [
+    "modify_replay",
+    "modify_telemetry",
+    "change_authority"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "mid_trace_service_death": "PASS",
+    "stale_lineage": "PASS",
+    "conflicting_telemetry": "PASS",
+    "delayed_ack": "PASS",
+    "node_desync": "PASS",
+    "observability_failure": "PASS"
+}

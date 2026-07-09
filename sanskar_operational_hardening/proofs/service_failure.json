@@ -1,0 +1,8 @@
+{
+    "test": "Mid-Trace Service Failure",
+    "failure_detected": true,
+    "recovery": "Other services remained operational",
+    "trace_continuity": "PRESERVED",
+    "replay_continuity": "MATCH",
+    "constitutional_status": "HELD"
+}

@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+
+  governance:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: governance_service
+    command: python -m services.governance_service.app
+    ports:
+      - "5001:5001"
+
+  truth:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: truth_service
+    command: python -m services.truth_service.app
+    ports:
+      - "5002:5002"
+
+  observability:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: observability_service
+    command: python -m services.observability_service.app
+    ports:
+      - "5003:5003"
+
+  testing:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: testing_service
+    command: python -m services.testing_service.app
+    ports:
+      - "5004:5004"
+
+  bhiv:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: bhiv_gateway
+    command: python -m services.bhiv_gateway.app
+    ports:
+      - "5005:5005"

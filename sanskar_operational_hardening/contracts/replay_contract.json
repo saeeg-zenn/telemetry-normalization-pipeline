@@ -1,0 +1,15 @@
+{
+  "service": "truth_service",
+  "version": "1.0",
+  "replay": {
+    "deterministic": true,
+    "lineage_required": true,
+    "authoritative_source": "truth_service"
+  },
+  "outputs": [
+    "REPLAY_MATCH",
+    "REPLAY_DIVERGENCE",
+    "RECOVERY_EXECUTED",
+    "RECOVERY_FAILED"
+  ]
+}

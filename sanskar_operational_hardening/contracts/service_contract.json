@@ -1,0 +1,12 @@
+{
+  "services": [
+    "governance_service",
+    "truth_service",
+    "observability_service",
+    "testing_service",
+    "bhiv_gateway"
+  ],
+  "health_required": true,
+  "dependency_visible": true,
+  "startup_independent": true
+}
